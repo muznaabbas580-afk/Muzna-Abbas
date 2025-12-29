@@ -1,0 +1,24 @@
+using System;
+using System.Diagnostics.CodeAnalysis;
+class multiplication
+{
+    public int multiply( int a, int b)
+    {
+        return a * b;
+    }
+    public double multiply( double a , double b)
+    {
+        return a * b;
+    }
+
+}
+class Program
+{
+    static void Main()
+    {
+        multiplication M = new multiplication();
+        Console.WriteLine("multiplication of two numbers :" + M.multiply( 3, 6));
+        Console.WriteLine(" multiplication of two double numbers :"+ M.multiply(4.6, 7.8));
+
+    }
+}
